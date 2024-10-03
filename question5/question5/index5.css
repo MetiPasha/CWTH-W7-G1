@@ -1,0 +1,51 @@
+.square-animation {
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(54, 105, 243);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 200px;
+        transform: rotate(0);
+        width: 50px;
+        height: 50px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+        transform: rotate(90deg);
+        width: 75px;
+        height: 75px;
+    }
+
+    50% {
+        left: 200px;
+        top: 0px;
+        transform: rotate(180deg);
+        width: 100px;
+        height: 100px;
+    }
+
+    75% {
+        left: 200px;
+        top: 200px;
+        transform: rotate(270deg);
+        width: 75px;
+        height: 75px;
+    }
+
+    100% {
+        left: 0px;
+        top: 200px;
+        transform: rotate(360deg);
+        width: 50px;
+        height: 50px;
+    }
+}

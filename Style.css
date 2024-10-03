@@ -1,0 +1,15 @@
+.heading{
+    position: relative;
+    text-align: center;
+}
+
+.heading::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 50%;
+    background-color: #ccc;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}

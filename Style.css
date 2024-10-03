@@ -1,27 +1,53 @@
-.heading{
-    position: relative;
-    text-align: center;
+:root{
+    --green--
+}
+.heading {
+  position: relative;
+  text-align: center;
 }
 
-.heading::before{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 10%;
-    background-color: #0c2ac1;
-    position: absolute;
-    bottom: 14px;
-    left: 30%;
+.heading::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 10%;
+  background-color: #0c2ac1;
+  position: absolute;
+  bottom: 14px;
+  left: 30%;
 }
 
+.heading::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 10%;
+  background-color: #0c2ac1;
+  position: absolute;
+  bottom: 14px;
+  right: 30%;
+}
+.import{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main {
+  background-image: url(Moon.svg);
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 10%;
+  padding:20px 0;
+  border-radius: 5px;
+  color: white;
 
-.heading::after{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 10%;
-    background-color: #0c2ac1;
-    position: absolute;
-    bottom: 14px;
-    right: 30%;
+}
+.main-a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(84, 156, 238);
+  padding: 0.3rem;
+  border-radius: 5px;
 }
